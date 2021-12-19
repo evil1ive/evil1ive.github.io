@@ -21,21 +21,3 @@ $('#pelmModal').on('show.bs.modal', function(e)
     $(".modal-title").html(name);    //вставляем название пельменя
     $(".modal-body").html(data[text]);   //вставляем текст модального окна
 })
-$(document).ready(function() {
-    $('a[href*=#]').bind('click', function(f) {
-    f.preventDefault();
-    
-    var target = $(this).attr("href");
-    
-    $('html, body').stop().animate({ scrollTop: $(target).offset().top}, 500, function() {
-    location.hash = target;
-    });
-    var button = $(e.relatedTarget);    //выясняем какая кнопка запустила окно
-    var text=button.data('text');    //получаем данные отатрибута data-text
-    var name=button.data('name');    //получаем данные отатрибута data-name
-    $(".modal-title").html(name);    //вставляем название пельменя
-    $(".modal-body").html(data[text]);   //вставляем текст модального окна
-    return false;
-    
-    });
-   });
