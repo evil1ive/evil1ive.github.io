@@ -7,20 +7,12 @@ body{
 .header{
     min-height: 80px;
 }
-@media screen and(max-width: 576px) {
 
-    .info2, .info3 {  
-        vertical-align: middle;
-        background-color: white;
-        min-height: 150px;
-        font-size: 25px;
-    }    
-}
 .info2, .info3 {  
     vertical-align: middle;
     background-color: white;
     min-height: 150px;
-    font-size: 50px;
+    font-size: 5vw;
 }
 .carousel-text{
     position: absolute;
