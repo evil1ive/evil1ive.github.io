@@ -11,13 +11,13 @@ body{
 .info2, .info3 {  
     vertical-align: middle;
     background-color: white;
-    min-height: 150px;
+    
     font-size: 5vw;
 }
 .carousel-text{
     position: absolute;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.45);
     
 }
 .cell{
